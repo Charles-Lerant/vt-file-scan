@@ -3,11 +3,11 @@ import os
 from vt import Client
 
 # Initialize the VirusTotal client
-api_key = 'd117386e6dfc4fe53f11bade67caece080858f628ff58b6cd8dd99101809a96f'  # Replace with your actual VirusTotal API key
+api_key = 'xxx'  # Replace with your actual VirusTotal API key
 vt_client = Client(api_key)
 
 # Specify the directory path containing the files to scan
-directory_path = 'C:\\Users\\clerant\\Desktop\\virus_total\\'
+directory_path = 'C:\\Users\\anyuser\\Desktop\\virus_total\\'
 
 # Iterate over files in the directory
 for file_name in os.listdir(directory_path):
